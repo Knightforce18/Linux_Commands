@@ -28,10 +28,11 @@
     $ date +%h   # used only for getting the first 3 letters of month name
  ```
 
-4. To display files and directories present in current location :
+4. To display/list files and directories present in current location :
    ~~~bash
    $ ls
    ~~~
+   
    Options for **ls** command :
    ~~~bash
    $ ls -lt   #This displays latest modified file on the top and it is long listing format.
@@ -40,7 +41,18 @@
 
    $ ls -lh  #This displays the output in human readble and long listing format.
    ~~~
-5.  space for short listing format : 
+   output format for **ls **command will be in  following manner :
+   ~~~bash
+   <File-permission> <No. of hard links> <owner-name> <Group> <Modification-date-and-time> <File-size> <File-Name>
+   ~~~
+   
+5.  space for short listing format :
+   
+
+6. To clear current Terminal screen:
+   ~~~bash
+   $ clear
+   ~~~
 
    
 
