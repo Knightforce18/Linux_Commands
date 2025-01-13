@@ -68,12 +68,15 @@
        $ cat <file-name>
 ~~~
 
-**Note**: If the file does not have an extension, do not mention it. If the file has an extension, mention the file name along with the extension.
+**Note**: If the file does not have an extension, do not mention it. If the file has an extension, mention the file name along with the extension.<br>
+
+![Screenshot_20250113_163311](https://github.com/user-attachments/assets/ff7b0148-9a29-40ed-95b5-5f5e7c13faca)
 
 2. To create a new file:
    ~~~bash
       $ touch <new_file_name>
    ~~~
+   ![Screenshot_20250113_163956](https://github.com/user-attachments/assets/0d324bdd-f02f-47a2-8ae3-5a80a8acda47)
     
 **Note**: File name can have an extension or may not have an extension.
 
