@@ -7,17 +7,19 @@
    ```bash
    $ pwd
     ```
+    ![Screenshot_20250113_161439](https://github.com/user-attachments/assets/cd05e4de-5d26-4197-b957-9e90754bad39)
    
 2. To display the name of current logged in user : 
    ```bash
    $ whoami
     ```
+   ![Screenshot_20250113_161747](https://github.com/user-attachments/assets/2ef2d36c-dd07-4880-807d-4696761c3ad0)
    
 3. To check System date and time :
    ```bash
     $ date
-    ```
-   
+   ```
+     
   we can customize the result of the **date** command ,Some examples are following : 
    ```bash
 
@@ -29,11 +31,14 @@
 
     $ date +%h   # used only for getting the first 3 letters of month name
  ```
+ ![Screenshot_20250113_162019](https://github.com/user-attachments/assets/197aaa60-5e74-4f9b-90f3-2990bd8e2adb)
+
 
 4. To display/list files and directories present in current location :
    ~~~bash
    $ ls
    ~~~
+   ![Screenshot_20250113_162540](https://github.com/user-attachments/assets/22b8e02f-9436-4a06-ae66-f378bf3e881f)
    
    Options for **ls** command :
    ~~~bash
@@ -43,15 +48,15 @@
 
    $ ls -lh  #This displays the output in human readble and long listing format.
    ~~~
-   output format for **ls **command will be in  following manner :
+  <br> output format for **ls **command will be in  following manner :
    ~~~bash
    <File-permission> <No. of hard links> <owner-name> <Group> <Modification-date-and-time> <File-size> <File-Name>
    ~~~
    
-5.  space for short listing format :
+6.  space for short listing format :
    
 
-6. To clear current Terminal screen:
+7. To clear current Terminal screen:
    ~~~bash
    $ clear
    ~~~
@@ -69,7 +74,7 @@
    ~~~bash
       $ touch <new_file_name>
    ~~~
-   
+    
 **Note**: File name can have an extension or may not have an extension.
 
    
