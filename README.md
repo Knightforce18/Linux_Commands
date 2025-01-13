@@ -1,17 +1,17 @@
 # List of Some Useful Linux Commands
 
-1. Check your current working directory/location
+1. Check your current working directory/location :
    
    ```bash
    $ pwd
     ```
    
-2. To display the name of current logged in user
+2. To display the name of current logged in user : 
    ```bash
    $ whoami
     ```
    
-3. To check System date and time
+3. To check System date and time :
    ```bash
     $ date
     ```
@@ -28,16 +28,19 @@
     $ date +%h   # used only for getting the first 3 letters of month name
  ```
 
-4. To display files and directories present in current location
+4. To display files and directories present in current location :
    ~~~bash
    $ ls
    ~~~
    Options for **ls** command :
    ~~~bash
-   $ ls -lt  #This displays latest modified file on the top
+   $ ls -lt   #This displays latest modified file on the top and it is long listing format.
    
-   $ ls -ltr #This is opposite for command for lt option and output result will be in reverse order.
+   $ ls -ltr  #This is opposite for command for lt option and output result will be in reverse order.
+
+   $ ls -lh  #This displays the output in human readble and long listing format.
    ~~~
+5.  space for short listing format : 
 
    
 
