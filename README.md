@@ -1,5 +1,7 @@
 # List of Some Useful Linux Commands
 
+ * ## Some General commands:
+
 1. Check your current working directory/location :
    
    ```bash
@@ -53,6 +55,22 @@
    ~~~bash
    $ clear
    ~~~
+---
+* ## Commands related to Files and Directories:
+
+1.  To display content of the file on terminal
+   ~~~bash
+       $ cat <file-name>
+~~~
+
+**Note**: If the file does not have an extension, do not mention it. If the file has an extension, mention the file name along with the extension.
+
+2. To create a new file:
+   ~~~bash
+      $ touch <new_file_name>
+   ~~~
+   
+**Note**: File name can have an extension or may not have an extension.
 
    
 
