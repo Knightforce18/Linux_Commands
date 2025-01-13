@@ -16,7 +16,7 @@
     $ date
     ```
    
-we can customize the result of the **date** command ,Some examples are following : 
+  we can customize the result of the **date** command ,Some examples are following : 
    ```bash
 
     $ date +%D   # used only for getting the date
@@ -27,10 +27,18 @@ we can customize the result of the **date** command ,Some examples are following
 
     $ date +%h   # used only for getting the first 3 letters of month name
  ```
+
 4. To display files and directories present in current location
    ~~~bash
    $ ls
    ~~~
+   Options for **ls** command :
+   ~~~bash
+   $ ls -lt  #This displays latest modified file on the top
+   
+   $ ls -ltr #This is opposite for command for lt option and output result will be in reverse order.
+   ~~~
+
    
 
 
